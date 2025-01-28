@@ -1,0 +1,23 @@
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.para-1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: justify;
+  
+}
+.para-2{
+  font-size:20px ;
+  text-transform: lowercase;
+  /* letter-spacing: 5px; */
+  word-spacing: 10px;
+  line-height: 30px;
+  text-indent: 40px;
+  text-align: justify;
+  text-shadow: 2px 7px 3px red;
+}
