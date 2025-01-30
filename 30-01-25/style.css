@@ -1,0 +1,16 @@
+/* front html
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+h1{
+  font-family: Charm;
+  text-transform: capitalize;
+}
+p{
+  font-family: Cookie;
+  font-size: 2em;
+}
+.para{
+  font-family: "Mea Culpa", serif;
+  font-size: 2em;
+
+}  */
