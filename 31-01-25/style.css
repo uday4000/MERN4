@@ -1,0 +1,25 @@
+/* jaita serial a age oita win korbe */
+/* 0,0,1,0 */
+.para{
+  color: black;
+}
+/* 0,0,0,1 */
+p{
+  color: brown;
+}
+/* 0,1,0,0 */
+#heading {
+  color: forestgreen;
+}
+/* 0,0,0,1 */
+h1{
+  color: brown;
+}
+/* 0,0,1,0 */
+.hello{
+  color: dimgray;
+}
+/* 0,0,0,6 */
+div > div > div > div > div > p{
+  color:blue
+}
