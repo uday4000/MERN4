@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Selection</title>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <h1>Hello Jupiter</h1>
+    <h4 id="SubTitle">I'm subtitle</h4>
+
+    <script>
+      let mainTitle = document.getElementsByTagName("h1");
+      console.log(mainTitle);
+      // mainTitle[0].textContent = "hello";
+      // // for (let i = 0; i < mainTitle.length; i++) {
+      //   // mainTitle[i].style.color = "red";
+      // }
+      let subTitle = document.getElementsByTagName("SubTitle");
+
+      // console.log(SubTitle);
+      SubTitle.style.color = "red";
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dom manipulation</title>
+  </head>
+  <body>
+    <div>
+      <!-- <h1>Hello World</h1>
+      <p>Hello Jupiter</p> -->
+      <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+    </div>
+    <script>
+      // let div = document.querySelector("div");
+      // let childs = div.children;
+      // // childs[1].style.color = "red";
+      // for (let i = 0; i < childs.length; i++) {
+      //   childs[i].style.color = "red";
+      // }
+      let item = document.querySelector("li");
+      item.nextElementSibling.style.color = "red";
+      // console.log(title.parentElement);
+      // title.parentElement.style.backgroundColor = "red";
+    </script>
+  </body>
+</html>

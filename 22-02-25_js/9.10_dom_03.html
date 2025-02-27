@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .red {
+        background-color: red;
+        color: #fff;
+        padding: 15px;
+        width: 50%;
+        margin: 0 auto;
+      }
+    </style>
+    <title>Dom Manipulation</title>
+  </head>
+  <body>
+    <h1 class="title">Hello World</h1>
+    <button>Click me</button>
+  </body>
+  <script>
+    let title = document.querySelector("h1");
+    let btn = document.querySelector("button");
+
+    btn.addEventListener("click", function () {
+      title.classList.toggle("red");
+    });
+  </script>
+</html>
